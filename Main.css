@@ -98,7 +98,7 @@ position: absolute;
  
 right: 20px;
 
-bottom: 12px;
+bottom: 32px;
     font-size: x-small;
     
     color: red;
@@ -130,11 +130,26 @@ bottom: 12px;
         width: 100%;
     }
 
+    .input-group span , .Submit_Error{
+
+
+
+        position: absolute;
+        
+         
+        right: -10px;
+        
+        bottom: 45px;
+            font-size: x-small;
+            
+            color: red;
+        
+        }
 
 
   }
 
-  @media (max-width:400px) {
+  /* @media (max-width:400px) {
    
 
     .input-group span , .Submit_Error{
@@ -146,7 +161,7 @@ bottom: 12px;
          
         right: -10px;
         
-        bottom: 12px;
+        bottom: 45px;
             font-size: x-small;
             
             color: red;
@@ -155,4 +170,23 @@ bottom: 12px;
 
   }
 
- 
+  @media (max-width:370px) {
+   
+
+    .input-group span , .Submit_Error{
+
+
+
+        position: absolute;
+        
+         
+        right: -10px;
+        
+        bottom: 45px;
+            font-size: x-small;
+            
+            color: red;
+        
+        }
+
+  } */

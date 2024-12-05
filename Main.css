@@ -95,7 +95,7 @@ form button {
 
 position: absolute;
 
-    /* margin-left:20px ; */
+ 
 right: 20px;
 
 bottom: 12px;
@@ -107,3 +107,52 @@ bottom: 12px;
 
 
 
+@media (max-width:530px) {
+    .input-group {
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        flex-basis: 68%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 10px 0;
+        border-bottom: 1px solid #999;
+        color: #333;
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+
+  }
+
+  @media (max-width:400px) {
+   
+
+    .input-group span , .Submit_Error{
+
+
+
+        position: absolute;
+        
+         
+        right: -10px;
+        
+        bottom: 12px;
+            font-size: x-small;
+            
+            color: red;
+        
+        }
+
+  }
+
+ 
